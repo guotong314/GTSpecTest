@@ -1,0 +1,16 @@
+PODS:
+  - GTSpec (0.1.0)
+
+DEPENDENCIES:
+  - GTSpec (from `../`)
+
+EXTERNAL SOURCES:
+  GTSpec:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GTSpec: 0fffa9aed5426a4a24ef4ce0e7d737cc2e16e938
+
+PODFILE CHECKSUM: bc830aeb78aefc79be5abb1082e6a714d20c1b21
+
+COCOAPODS: 1.1.1
