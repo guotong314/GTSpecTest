@@ -10,7 +10,7 @@
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2098A568-08CC-4799-93D4-4585C9AA81BD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "2A51C7A2EB2CB71A8EE403A0300F974455A6AF90" : "GTSpec\/",
-    "A1E3271CC790E4DF952DFB6C22B6903B7065ED88" : ""
+    "A1E3271CC790E4DF952DFB6C22B6903B7065ED88" : "GTSpecTest\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "GTSpec",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,

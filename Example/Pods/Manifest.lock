@@ -1,5 +1,5 @@
 PODS:
-  - GTSpec (0.1.0)
+  - GTSpec (0.3.0)
 
 DEPENDENCIES:
   - GTSpec (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GTSpec: 0fffa9aed5426a4a24ef4ce0e7d737cc2e16e938
+  GTSpec: 5ba004e6c8a36fc8ef5eeb00bfe6a5fef4f1f397
 
 PODFILE CHECKSUM: bc830aeb78aefc79be5abb1082e6a714d20c1b21
 

@@ -1,6 +1,0 @@
-framework module GTSpec {
-  umbrella header "GTSpec-umbrella.h"
-
-  export *
-  module * { export * }
-}
