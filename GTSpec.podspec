@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GTSpec'
-  s.version          = '0.6.0'
+  s.version          = '0.6.2'
   s.summary          = 'A short description of GTSpec.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '7.0'
 
+  s.public_header_files = 'Example/GTSpec/Classes/Defines/GTDefine.h'
   s.source_files = 'Example/GTSpec/Classes/**/*'
-  
+
+
+
   # s.resource_bundles = {
   #   'GTSpec' => ['GTSpec/GTSpec/Assets/*.png']
   # }
