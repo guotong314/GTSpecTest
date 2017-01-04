@@ -14,8 +14,6 @@
     @import UIKit;
     @import Foundation;
 
-#import "GTDefine.h"
-#import "UIView+Sizes.h"
-
+#import "GTHeader.h"
 
 #endif

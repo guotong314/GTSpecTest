@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '7.0'
 
-  s.public_header_files = 'GTSpec/Classes/Defines/GTHeader.h'
-  s.source_files = 'GTSpec/Classes/**/*'
+  s.public_header_files = 'GTSpec/Classes/Defines/*.h'
+  s.source_files = 'GTSpec/Classes/**/*.{h,m}'
 
 
 
