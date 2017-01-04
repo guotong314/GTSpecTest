@@ -1,16 +1,12 @@
 PODS:
-  - GTSpec (0.3.0)
+  - KLSwitch (1.5)
 
 DEPENDENCIES:
-  - GTSpec (from `../`)
-
-EXTERNAL SOURCES:
-  GTSpec:
-    :path: "../"
+  - KLSwitch
 
 SPEC CHECKSUMS:
-  GTSpec: 5ba004e6c8a36fc8ef5eeb00bfe6a5fef4f1f397
+  KLSwitch: ff8b9953b9e15e16cb53efec7370a44ae02f8a6c
 
-PODFILE CHECKSUM: bc830aeb78aefc79be5abb1082e6a714d20c1b21
+PODFILE CHECKSUM: ca9aa9e16c67731752e15939e5d1bc52d6403f50
 
 COCOAPODS: 1.1.1

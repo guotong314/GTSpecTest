@@ -1,11 +1,12 @@
-use_frameworks!
 
 target 'GTSpec_Example' do
-  pod 'GTSpec', :path => '../'
+#  pod 'GTSpec', :path => '../'
 
   target 'GTSpec_Tests' do
     inherit! :search_paths
-
+    
+    
+pod 'KLSwitch'
     
   end
 end
