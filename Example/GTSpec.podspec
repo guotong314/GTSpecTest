@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GTSpec'
-  s.version          = '0.6.2'
+  s.version          = '0.6.3'
   s.summary          = 'A short description of GTSpec.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '郭通' => 'guotong314@gmail.com' }
-  s.source           = { :git => 'https://github.com/guotong314/GTSpecTest.git', :tag => '#{s.version}' }
+  s.source           = { :git => 'https://github.com/guotong314/GTSpecTest.git', :tag => s.version}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
 
   #s.public_header_files = 'GTSpec/Classes/Defines/*.h'  #公开头文件地址
   s.prefix_header_file =  'GTSpec/GTSpec-Prefix.pch'
-  s.source_files = 'GTSpec/Classes/**/*.{h,m}'
+  s.source_files = 'GTSpec/Classes/**/*'
 
 
 
