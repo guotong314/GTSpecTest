@@ -22,6 +22,7 @@
 		4E4704AC1E1CA0290000FF42 /* NSString+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4704941E1CA0290000FF42 /* NSString+Time.m */; };
 		4E4704AD1E1CA0290000FF42 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4704961E1CA0290000FF42 /* NSString+URLEncode.m */; };
 		4E4704AE1E1CA0290000FF42 /* UIView+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4704991E1CA0290000FF42 /* UIView+Sizes.m */; };
+		4E4704B51E1CE1670000FF42 /* GTRemindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4704B41E1CE1670000FF42 /* GTRemindView.m */; };
 		4E92827A1E121C2B00C64A85 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4E9282751E121C2B00C64A85 /* .gitkeep */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -80,6 +81,8 @@
 		4E47049E1E1CA0290000FF42 /* MGJMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJMacros.h; sourceTree = "<group>"; };
 		4E47049F1E1CA0290000FF42 /* MGJMetaMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJMetaMacros.h; sourceTree = "<group>"; };
 		4E4704B11E1CCE5A0000FF42 /* GTHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTHeader.h; sourceTree = "<group>"; };
+		4E4704B31E1CE1670000FF42 /* GTRemindView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTRemindView.h; sourceTree = "<group>"; };
+		4E4704B41E1CE1670000FF42 /* GTRemindView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTRemindView.m; sourceTree = "<group>"; };
 		4E9282751E121C2B00C64A85 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		5414211C2C57D94C5448233F /* Pods-GTSpec_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTSpec_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTSpec_Example/Pods-GTSpec_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GTSpec_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTSpec_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -229,8 +232,18 @@
 		4E4704A01E1CA0290000FF42 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				4E4704B21E1CE1670000FF42 /* TipView */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		4E4704B21E1CE1670000FF42 /* TipView */ = {
+			isa = PBXGroup;
+			children = (
+				4E4704B31E1CE1670000FF42 /* GTRemindView.h */,
+				4E4704B41E1CE1670000FF42 /* GTRemindView.m */,
+			);
+			path = TipView;
 			sourceTree = "<group>";
 		};
 		4E9282741E121C2B00C64A85 /* Assets */ = {
@@ -554,6 +567,7 @@
 				4E4704A91E1CA0290000FF42 /* NSDictionary+TypeSafe.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				4E4704A71E1CA0290000FF42 /* NSArray+Safe.m in Sources */,
+				4E4704B51E1CE1670000FF42 /* GTRemindView.m in Sources */,
 				4E4704AE1E1CA0290000FF42 /* UIView+Sizes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

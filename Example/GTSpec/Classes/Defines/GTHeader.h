@@ -9,7 +9,11 @@
 #ifndef GTHeader_h
 #define GTHeader_h
 
+    @import UIKit;
+    @import Foundation;
+
+
 #import "GTDefine.h"
-//#import "UIView+Sizes.h"
+#import "UIView+Sizes.h"
 
 #endif /* GTHeader_h */
