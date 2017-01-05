@@ -293,13 +293,13 @@
 		6003F593195388D20070C39A /* Example for GTSpec */ = {
 			isa = PBXGroup;
 			children = (
-				4E47047E1E1CA0290000FF42 /* Classes */,
 				6003F59C195388D20070C39A /* GTAppDelegate.h */,
 				6003F59D195388D20070C39A /* GTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* GTViewController.h */,
 				6003F5A6195388D20070C39A /* GTViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				4E47047E1E1CA0290000FF42 /* Classes */,
 				6003F594195388D20070C39A /* Supporting Files */,
 				4E4704531E1C98610000FF42 /* Launch Screen.storyboard */,
 			);
