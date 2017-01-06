@@ -24,6 +24,9 @@
 		4E4704AE1E1CA0290000FF42 /* UIView+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4704991E1CA0290000FF42 /* UIView+Sizes.m */; };
 		4E4704B51E1CE1670000FF42 /* GTRemindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4704B41E1CE1670000FF42 /* GTRemindView.m */; };
 		4E4704B81E1DEBA50000FF42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E4704B71E1DEBA50000FF42 /* Images.xcassets */; };
+		4E4704DA1E1F8A2E0000FF42 /* GTBaseRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4704D41E1F8A2E0000FF42 /* GTBaseRule.m */; };
+		4E4704DB1E1F8A2E0000FF42 /* GTBaseComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4704D71E1F8A2E0000FF42 /* GTBaseComponent.m */; };
+		4E4704DC1E1F8A2E0000FF42 /* GTComponentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4704D91E1F8A2E0000FF42 /* GTComponentManager.m */; };
 		4E92827A1E121C2B00C64A85 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4E9282751E121C2B00C64A85 /* .gitkeep */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -84,6 +87,13 @@
 		4E4704B31E1CE1670000FF42 /* GTRemindView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTRemindView.h; sourceTree = "<group>"; };
 		4E4704B41E1CE1670000FF42 /* GTRemindView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTRemindView.m; sourceTree = "<group>"; };
 		4E4704B71E1DEBA50000FF42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E4704D31E1F8A2E0000FF42 /* GTBaseRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTBaseRule.h; sourceTree = "<group>"; };
+		4E4704D41E1F8A2E0000FF42 /* GTBaseRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTBaseRule.m; sourceTree = "<group>"; };
+		4E4704D51E1F8A2E0000FF42 /* GTBaseRuleSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTBaseRuleSource.h; sourceTree = "<group>"; };
+		4E4704D61E1F8A2E0000FF42 /* GTBaseComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTBaseComponent.h; sourceTree = "<group>"; };
+		4E4704D71E1F8A2E0000FF42 /* GTBaseComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTBaseComponent.m; sourceTree = "<group>"; };
+		4E4704D81E1F8A2E0000FF42 /* GTComponentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTComponentManager.h; sourceTree = "<group>"; };
+		4E4704D91E1F8A2E0000FF42 /* GTComponentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTComponentManager.m; sourceTree = "<group>"; };
 		4E9282751E121C2B00C64A85 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		5414211C2C57D94C5448233F /* Pods-GTSpec_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTSpec_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTSpec_Example/Pods-GTSpec_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GTSpec_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTSpec_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +151,7 @@
 		4E47047E1E1CA0290000FF42 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4E4704D21E1F8A290000FF42 /* Rule */,
 				4E47047F1E1CA0290000FF42 /* .gitkeep */,
 				4E4704801E1CA0290000FF42 /* BaseFunction */,
 				4E4704831E1CA0290000FF42 /* Categroy */,
@@ -252,6 +263,20 @@
 				4E4704B71E1DEBA50000FF42 /* Images.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		4E4704D21E1F8A290000FF42 /* Rule */ = {
+			isa = PBXGroup;
+			children = (
+				4E4704D31E1F8A2E0000FF42 /* GTBaseRule.h */,
+				4E4704D41E1F8A2E0000FF42 /* GTBaseRule.m */,
+				4E4704D51E1F8A2E0000FF42 /* GTBaseRuleSource.h */,
+				4E4704D61E1F8A2E0000FF42 /* GTBaseComponent.h */,
+				4E4704D71E1F8A2E0000FF42 /* GTBaseComponent.m */,
+				4E4704D81E1F8A2E0000FF42 /* GTComponentManager.h */,
+				4E4704D91E1F8A2E0000FF42 /* GTComponentManager.m */,
+			);
+			path = Rule;
 			sourceTree = "<group>";
 		};
 		4E9282741E121C2B00C64A85 /* Assets */ = {
@@ -568,11 +593,14 @@
 				6003F59E195388D20070C39A /* GTAppDelegate.m in Sources */,
 				4E4704AC1E1CA0290000FF42 /* NSString+Time.m in Sources */,
 				6003F5A7195388D20070C39A /* GTViewController.m in Sources */,
+				4E4704DB1E1F8A2E0000FF42 /* GTBaseComponent.m in Sources */,
 				4E4704AB1E1CA0290000FF42 /* NSString+Size.m in Sources */,
 				4E4704AA1E1CA0290000FF42 /* NSString+Json.m in Sources */,
+				4E4704DC1E1F8A2E0000FF42 /* GTComponentManager.m in Sources */,
 				4E4704AD1E1CA0290000FF42 /* NSString+URLEncode.m in Sources */,
 				4E4704A51E1CA0290000FF42 /* DMPhoneBase.m in Sources */,
 				4E4704A91E1CA0290000FF42 /* NSDictionary+TypeSafe.m in Sources */,
+				4E4704DA1E1F8A2E0000FF42 /* GTBaseRule.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				4E4704A71E1CA0290000FF42 /* NSArray+Safe.m in Sources */,
 				4E4704B51E1CE1670000FF42 /* GTRemindView.m in Sources */,

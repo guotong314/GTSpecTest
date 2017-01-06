@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GTSpec'
-  s.version          = '0.6.6'
+  s.version          = '0.6.7'
   s.summary          = 'A short description of GTSpec.'
 
 # This description is used to generate tags and improve search results.
@@ -34,13 +34,13 @@ TODO: Add long description of the pod here.
 
   #s.public_header_files = 'Example/GTSpec/Classes/Defines/*.h'  #公开头文件地址
   s.prefix_header_file =  'Example/GTSpec/GTSpec-Prefix.pch'
-  s.source_files = 'Example/GTSpec/Classes/**/*','Example/GTSpec/Resources/**/*'
+  s.source_files = 'Example/GTSpec/Classes/**/*'
+  s.resources = 'Example/GTSpec/Resources/*.xcassets'
 
 
-
-  # s.resource_bundles = {
+  #s.resource_bundles = {
   #  'GTSpec' => ['Example/GTSpec/Resources/**/*]
-  # }
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

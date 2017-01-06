@@ -15,5 +15,6 @@
 
 #import "GTDefine.h"
 #import "UIView+Sizes.h"
+#import "NSString+Json.h"
 
 #endif /* GTHeader_h */
