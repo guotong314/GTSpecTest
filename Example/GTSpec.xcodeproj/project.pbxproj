@@ -29,6 +29,7 @@
 		4E4704DC1E1F8A2E0000FF42 /* GTComponentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4704D91E1F8A2E0000FF42 /* GTComponentManager.m */; };
 		4E92827A1E121C2B00C64A85 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4E9282751E121C2B00C64A85 /* .gitkeep */; };
 		4EC1DCCD1E2379020056D16C /* PersistenceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1DCCC1E2379020056D16C /* PersistenceHelper.m */; };
+		4EC1DCD01E237FC20056D16C /* ValueForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1DCCF1E237FC20056D16C /* ValueForKey.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -98,6 +99,8 @@
 		4E9282751E121C2B00C64A85 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		4EC1DCCB1E2379020056D16C /* PersistenceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistenceHelper.h; sourceTree = "<group>"; };
 		4EC1DCCC1E2379020056D16C /* PersistenceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistenceHelper.m; sourceTree = "<group>"; };
+		4EC1DCCE1E237FC20056D16C /* ValueForKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueForKey.h; sourceTree = "<group>"; };
+		4EC1DCCF1E237FC20056D16C /* ValueForKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueForKey.m; sourceTree = "<group>"; };
 		5414211C2C57D94C5448233F /* Pods-GTSpec_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTSpec_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTSpec_Example/Pods-GTSpec_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GTSpec_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTSpec_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -204,6 +207,8 @@
 				4E47048B1E1CA0290000FF42 /* NSDictionary+JSONString.m */,
 				4E47048C1E1CA0290000FF42 /* NSDictionary+TypeSafe.h */,
 				4E47048D1E1CA0290000FF42 /* NSDictionary+TypeSafe.m */,
+				4EC1DCCE1E237FC20056D16C /* ValueForKey.h */,
+				4EC1DCCF1E237FC20056D16C /* ValueForKey.m */,
 			);
 			path = "NSDictory+";
 			sourceTree = "<group>";
@@ -606,6 +611,7 @@
 				4E4704AD1E1CA0290000FF42 /* NSString+URLEncode.m in Sources */,
 				4E4704A51E1CA0290000FF42 /* DMPhoneBase.m in Sources */,
 				4E4704A91E1CA0290000FF42 /* NSDictionary+TypeSafe.m in Sources */,
+				4EC1DCD01E237FC20056D16C /* ValueForKey.m in Sources */,
 				4E4704DA1E1F8A2E0000FF42 /* GTBaseRule.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				4E4704A71E1CA0290000FF42 /* NSArray+Safe.m in Sources */,
