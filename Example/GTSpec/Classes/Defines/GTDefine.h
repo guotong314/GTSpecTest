@@ -53,4 +53,8 @@
 //NavBar背景色
 #define COLOR_NAV                       RGBA(234,234,234,1)
 
+#define GTRouterParameterURL  @"GTRouterParameterURL"
+#define GTRouterParameterCompletion  @"GTRouterParameterCompletion"
+#define GTRouterParameterUserInfo  @"GTRouterParameterUserInfo"
+
 #endif /* GTDefine_h */
