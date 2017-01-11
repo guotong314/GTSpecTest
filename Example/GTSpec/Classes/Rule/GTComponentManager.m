@@ -84,7 +84,7 @@ NSString *const MGJComponentDefaultPlistName = @"components";
                             NSDictionary *userInfo = routerParameters[GTRouterParameterUserInfo];
                             NSString *fullURL = routerParameters[GTRouterParameterURL];
                             
-                            [obj handleURL:fullURL withUserInfo:userInfol completion:completionBlock];
+                            [obj handleURL:fullURL withUserInfo:userInfo completion:completionBlock];
                         }
                     }];
                 }];
