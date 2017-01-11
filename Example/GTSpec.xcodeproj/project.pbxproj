@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0B2B3BDB2D26C6CDCF4BB5F4 /* libPods-GTSpec_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8633E4775586D866B6AD72 /* libPods-GTSpec_Tests.a */; };
-		4B7FDC2508399095AC942E58 /* libPods-GTSpec_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B390D8D1569967A7AAA82927 /* libPods-GTSpec_Example.a */; };
 		4E4704501E1B67C40000FF42 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E47044F1E1B67C40000FF42 /* MessageUI.framework */; };
 		4E4704541E1C98610000FF42 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4704531E1C98610000FF42 /* Launch Screen.storyboard */; };
 		4E4704A41E1CA0290000FF42 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4E47047F1E1CA0290000FF42 /* .gitkeep */; };
@@ -43,6 +42,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BA43711ABA77BE871FCB7088 /* libPods-GTSpec_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B390D8D1569967A7AAA82927 /* libPods-GTSpec_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +57,9 @@
 
 /* Begin PBXFileReference section */
 		35B8BAFAFE41979E910C0F91 /* Pods-GTSpec_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTSpec_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTSpec_Example/Pods-GTSpec_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4E26A3B21E248C4300627BAF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4E26A3B41E248C5C00627BAF /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		4E26A3B61E248CD000627BAF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		4E47044F1E1B67C40000FF42 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		4E4704531E1C98610000FF42 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		4E47047F1E1CA0290000FF42 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -136,7 +139,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				4B7FDC2508399095AC942E58 /* libPods-GTSpec_Example.a in Frameworks */,
+				BA43711ABA77BE871FCB7088 /* libPods-GTSpec_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +325,9 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E26A3B61E248CD000627BAF /* CoreTelephony.framework */,
+				4E26A3B41E248C5C00627BAF /* libresolv.tbd */,
+				4E26A3B21E248C4300627BAF /* libz.tbd */,
 				4E47044F1E1B67C40000FF42 /* MessageUI.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
@@ -449,7 +455,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = GT;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "郭通";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -671,14 +677,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -711,13 +722,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

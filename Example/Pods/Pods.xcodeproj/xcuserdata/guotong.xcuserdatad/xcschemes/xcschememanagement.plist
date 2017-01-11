@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>KLSwitch.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-GTSpec_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6560C3F39BBDE0CC6F5E72D480460E13</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>6B4F9DDEE24417A28C36E6373A04F48D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F801BCE6FDB4F5E1E1A66DFEAED756AF</key>
+		<key>FEC5988168140DD183F42255E02FCBC0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

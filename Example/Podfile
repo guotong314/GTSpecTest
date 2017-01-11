@@ -5,8 +5,5 @@ target 'GTSpec_Example' do
   target 'GTSpec_Tests' do
     inherit! :search_paths
     
-    
-pod 'KLSwitch'
-    
   end
 end

@@ -7,26 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1956873CC44E42D786DE701C26088491 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		786EB0107630662D1B04734B20FD2ED9 /* KLSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC317A11EC1DB97FCC7E3EEA6D56A07 /* KLSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A73F9C84DAB8A3A3D2ED1F9D164A589D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		AA4EAA0BA77D859895D9129450456014 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		4D1F49040831402140E7580376E03298 /* Pods-GTSpec_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C6B887A61F97B5FE697C7230A7527 /* Pods-GTSpec_Tests-dummy.m */; };
+		68CD60F66CCAE458B27721AEA584AA29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AA4EAA0BA77D859895D9129450456014 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		B44E0004069A3DDCAEA40B48D1380712 /* Pods-GTSpec_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7AD4559BFE355229053ACC19F2269F /* Pods-GTSpec_Example-dummy.m */; };
-		CC12842BD235F26C6BC408EF0A62D885 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		DEEF789BA9FEC204EDC069A51D9CEB61 /* KLSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6489EA4F0E5E47A656D040CA161FB28 /* KLSwitch-dummy.m */; };
-		DF0424DB8A6C49A21933B05EE265741E /* Pods-GTSpec_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C6B887A61F97B5FE697C7230A7527 /* Pods-GTSpec_Tests-dummy.m */; };
-		F9313C5D6BBBA3C54282B2544440A1F6 /* KLSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE466F1E02F6A9C36486D93BA162AAE /* KLSwitch.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3016F67A57788F769FBF78A530EE635A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6560C3F39BBDE0CC6F5E72D480460E13;
-			remoteInfo = KLSwitch;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		049007B0B97E1A2EE649CF7B6F34E370 /* Pods-GTSpec_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTSpec_Example-resources.sh"; sourceTree = "<group>"; };
@@ -36,24 +21,17 @@
 		2D5EF5E5C42332C8A9C07AC5F0F7A98F /* Pods-GTSpec_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTSpec_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3E7AD4559BFE355229053ACC19F2269F /* Pods-GTSpec_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTSpec_Example-dummy.m"; sourceTree = "<group>"; };
 		408869EC8B12B0D22B183D806447D1C8 /* Pods-GTSpec_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTSpec_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4F708E949354C8AF972B60F71EAB5220 /* libPods-GTSpec_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GTSpec_Tests.a"; path = "libPods-GTSpec_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AF92E1F96CFB4A2A666758E5570E64 /* Pods-GTSpec_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTSpec_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5715C2599941022B206B0B972F222F4E /* libPods-GTSpec_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GTSpec_Example.a"; path = "libPods-GTSpec_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		630CB9097549E610D9D9A605A96E7626 /* libPods-GTSpec_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GTSpec_Example.a"; path = "libPods-GTSpec_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7062169A63B4E90C535A0D2955643AF3 /* Pods-GTSpec_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTSpec_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		73F36B6DFB42A860EE4EB7F4EFDDC753 /* Pods-GTSpec_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTSpec_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7EC317A11EC1DB97FCC7E3EEA6D56A07 /* KLSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLSwitch.h; path = KLSwitch/KLSwitch/KLSwitch.h; sourceTree = "<group>"; };
-		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		860F894AD20368F2A04023DD484AEE21 /* KLSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KLSwitch.xcconfig; sourceTree = "<group>"; };
-		8B5C1F68066451B901335C6FA10084A6 /* KLSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLSwitch-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CBB41CA58954C4D5F3594161074535C /* Pods-GTSpec_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTSpec_Tests-resources.sh"; sourceTree = "<group>"; };
-		AAE466F1E02F6A9C36486D93BA162AAE /* KLSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLSwitch.m; path = KLSwitch/KLSwitch/KLSwitch.m; sourceTree = "<group>"; };
 		B0DBFD5EF061A4AC46C4864EEA986390 /* Pods-GTSpec_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTSpec_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B4D7D5BCE5BFD115E8BA32F0446101FD /* Pods-GTSpec_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTSpec_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7AB5A8D4D65F9B92FF1C15F1D485CEF /* libPods-GTSpec_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GTSpec_Tests.a"; path = "libPods-GTSpec_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB42DEC312AC55F52173F372814274B1 /* Pods-GTSpec_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTSpec_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D6489EA4F0E5E47A656D040CA161FB28 /* KLSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KLSwitch-dummy.m"; sourceTree = "<group>"; };
-		E9BB474DA175C367E36508C286B69513 /* libKLSwitch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKLSwitch.a; path = libKLSwitch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,20 +43,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D65570A63FED07ADF790ED2A7C95B63 /* Frameworks */ = {
+		8FD7F0B30B4E02550C601A707C3EC2FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1956873CC44E42D786DE701C26088491 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C744A13515D762906E69D125C36CFCF8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC12842BD235F26C6BC408EF0A62D885 /* Foundation.framework in Frameworks */,
-				A73F9C84DAB8A3A3D2ED1F9D164A589D /* UIKit.framework in Frameworks */,
+				68CD60F66CCAE458B27721AEA584AA29 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,53 +69,39 @@
 			path = "Target Support Files/Pods-GTSpec_Tests";
 			sourceTree = "<group>";
 		};
-		2A01D7AF7EC9276043ECBD7A902B38C8 /* Pods */ = {
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7FAAC0692C587C30515F24B7A189BEDC /* KLSwitch */,
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6C1232C5887A6E7D3465D3FE2A7C9545 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				860F894AD20368F2A04023DD484AEE21 /* KLSwitch.xcconfig */,
-				D6489EA4F0E5E47A656D040CA161FB28 /* KLSwitch-dummy.m */,
-				8B5C1F68066451B901335C6FA10084A6 /* KLSwitch-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KLSwitch";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				2A01D7AF7EC9276043ECBD7A902B38C8 /* Pods */,
-				D4C822A99F48ADB69D6B57289EFCE4AA /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B34396F5A8D183BE93D3720D7DFB1654 /* Products */,
 				BFC301176B537A6CD140AC7052F391A5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7FAAC0692C587C30515F24B7A189BEDC /* KLSwitch */ = {
+		B34396F5A8D183BE93D3720D7DFB1654 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7EC317A11EC1DB97FCC7E3EEA6D56A07 /* KLSwitch.h */,
-				AAE466F1E02F6A9C36486D93BA162AAE /* KLSwitch.m */,
-				6C1232C5887A6E7D3465D3FE2A7C9545 /* Support Files */,
+				630CB9097549E610D9D9A605A96E7626 /* libPods-GTSpec_Example.a */,
+				C7AB5A8D4D65F9B92FF1C15F1D485CEF /* libPods-GTSpec_Tests.a */,
 			);
-			name = KLSwitch;
-			path = KLSwitch;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BFC301176B537A6CD140AC7052F391A5 /* Targets Support Files */ = {
@@ -156,25 +111,6 @@
 				0A41D141E58D76935A379853AE792841 /* Pods-GTSpec_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		D4C822A99F48ADB69D6B57289EFCE4AA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E9BB474DA175C367E36508C286B69513 /* libKLSwitch.a */,
-				5715C2599941022B206B0B972F222F4E /* libPods-GTSpec_Example.a */,
-				4F708E949354C8AF972B60F71EAB5220 /* libPods-GTSpec_Tests.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
-				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		FD07661D2AA04673742F95C1F42C4AB5 /* Pods-GTSpec_Example */ = {
@@ -194,35 +130,7 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		D157BC4B6F84675D60F8E6324A67F310 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				786EB0107630662D1B04734B20FD2ED9 /* KLSwitch.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		6560C3F39BBDE0CC6F5E72D480460E13 /* KLSwitch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D47079D1419267972CD449671E607752 /* Build configuration list for PBXNativeTarget "KLSwitch" */;
-			buildPhases = (
-				CAF75F88FF2711EBCE817C2677CFEBED /* Sources */,
-				C744A13515D762906E69D125C36CFCF8 /* Frameworks */,
-				D157BC4B6F84675D60F8E6324A67F310 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KLSwitch;
-			productName = KLSwitch;
-			productReference = E9BB474DA175C367E36508C286B69513 /* libKLSwitch.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		6B4F9DDEE24417A28C36E6373A04F48D /* Pods-GTSpec_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 751B62EB3C6EFD996F310DF6CBC4CD13 /* Build configuration list for PBXNativeTarget "Pods-GTSpec_Example" */;
@@ -236,24 +144,23 @@
 			);
 			name = "Pods-GTSpec_Example";
 			productName = "Pods-GTSpec_Example";
-			productReference = 5715C2599941022B206B0B972F222F4E /* libPods-GTSpec_Example.a */;
+			productReference = 630CB9097549E610D9D9A605A96E7626 /* libPods-GTSpec_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		F801BCE6FDB4F5E1E1A66DFEAED756AF /* Pods-GTSpec_Tests */ = {
+		FEC5988168140DD183F42255E02FCBC0 /* Pods-GTSpec_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFCB574A7B290ECC18481F3D7037446B /* Build configuration list for PBXNativeTarget "Pods-GTSpec_Tests" */;
+			buildConfigurationList = 9AF760784A83C5A249E722790767BB16 /* Build configuration list for PBXNativeTarget "Pods-GTSpec_Tests" */;
 			buildPhases = (
-				8E4247EEA5F6B39B2CB1F59847A4DD6C /* Sources */,
-				7D65570A63FED07ADF790ED2A7C95B63 /* Frameworks */,
+				A4DFB6CF61153D3534C8FFF6D0E02090 /* Sources */,
+				8FD7F0B30B4E02550C601A707C3EC2FE /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E452255B9E276C5F37E6CA6D4106F555 /* PBXTargetDependency */,
 			);
 			name = "Pods-GTSpec_Tests";
 			productName = "Pods-GTSpec_Tests";
-			productReference = 4F708E949354C8AF972B60F71EAB5220 /* libPods-GTSpec_Tests.a */;
+			productReference = C7AB5A8D4D65F9B92FF1C15F1D485CEF /* libPods-GTSpec_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -273,13 +180,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D4C822A99F48ADB69D6B57289EFCE4AA /* Products */;
+			productRefGroup = B34396F5A8D183BE93D3720D7DFB1654 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6560C3F39BBDE0CC6F5E72D480460E13 /* KLSwitch */,
 				6B4F9DDEE24417A28C36E6373A04F48D /* Pods-GTSpec_Example */,
-				F801BCE6FDB4F5E1E1A66DFEAED756AF /* Pods-GTSpec_Tests */,
+				FEC5988168140DD183F42255E02FCBC0 /* Pods-GTSpec_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -293,33 +199,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E4247EEA5F6B39B2CB1F59847A4DD6C /* Sources */ = {
+		A4DFB6CF61153D3534C8FFF6D0E02090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF0424DB8A6C49A21933B05EE265741E /* Pods-GTSpec_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAF75F88FF2711EBCE817C2677CFEBED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DEEF789BA9FEC204EDC069A51D9CEB61 /* KLSwitch-dummy.m in Sources */,
-				F9313C5D6BBBA3C54282B2544440A1F6 /* KLSwitch.m in Sources */,
+				4D1F49040831402140E7580376E03298 /* Pods-GTSpec_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E452255B9E276C5F37E6CA6D4106F555 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KLSwitch;
-			target = 6560C3F39BBDE0CC6F5E72D480460E13 /* KLSwitch */;
-			targetProxy = 3016F67A57788F769FBF78A530EE635A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
@@ -429,19 +317,19 @@
 			};
 			name = Debug;
 		};
-		5CE28803D986DFDB5D1AFE7C78E608FD /* Release */ = {
+		60B4D7DF6E8D3EBBB57EC9E6A2CF9A7B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB42DEC312AC55F52173F372814274B1 /* Pods-GTSpec_Tests.release.xcconfig */;
+			baseConfigurationReference = 73F36B6DFB42A860EE4EB7F4EFDDC753 /* Pods-GTSpec_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -450,7 +338,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		90E1CADFCBAEEA1D27D7D3E345909C4A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -475,55 +363,9 @@
 			};
 			name = Release;
 		};
-		95FFDC40E5F2716AE44CEDFBCC268742 /* Debug */ = {
+		FEE2FC4F2D2CDC0D2DCD8B6A942CDB92 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73F36B6DFB42A860EE4EB7F4EFDDC753 /* Pods-GTSpec_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		BFFF8BE1393AFC2DD191A76473C8BBF9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 860F894AD20368F2A04023DD484AEE21 /* KLSwitch.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KLSwitch/KLSwitch-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		FCA7A2F65771461C0DDA4B0396C70879 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 860F894AD20368F2A04023DD484AEE21 /* KLSwitch.xcconfig */;
+			baseConfigurationReference = CB42DEC312AC55F52173F372814274B1 /* Pods-GTSpec_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -531,14 +373,14 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KLSwitch/KLSwitch-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -565,20 +407,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D47079D1419267972CD449671E607752 /* Build configuration list for PBXNativeTarget "KLSwitch" */ = {
+		9AF760784A83C5A249E722790767BB16 /* Build configuration list for PBXNativeTarget "Pods-GTSpec_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFFF8BE1393AFC2DD191A76473C8BBF9 /* Debug */,
-				FCA7A2F65771461C0DDA4B0396C70879 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DFCB574A7B290ECC18481F3D7037446B /* Build configuration list for PBXNativeTarget "Pods-GTSpec_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				95FFDC40E5F2716AE44CEDFBCC268742 /* Debug */,
-				5CE28803D986DFDB5D1AFE7C78E608FD /* Release */,
+				60B4D7DF6E8D3EBBB57EC9E6A2CF9A7B /* Debug */,
+				FEE2FC4F2D2CDC0D2DCD8B6A942CDB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

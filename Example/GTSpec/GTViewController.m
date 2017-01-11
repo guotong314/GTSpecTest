@@ -7,7 +7,7 @@
 //
 
 #import "GTViewController.h"
-
+#import <KLSwitch/KLSwitch.h>
 @interface GTViewController ()
 
 @end
@@ -20,6 +20,9 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     self.view.backgroundColor = [UIColor whiteColor];
+    
+//    KLSwitch *sw = [[KLSwitch alloc] init];
+//    [self.view addSubview:sw];
 }
 
 - (void)didReceiveMemoryWarning
