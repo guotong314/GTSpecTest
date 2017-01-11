@@ -10,10 +10,6 @@
 
 static NSString * const GT_ROUTER_WILDCARD_CHARACTER = @"~";
 
-NSString *const GTRouterParameterURL = @"GTRouterParameterURL";
-NSString *const GTRouterParameterCompletion = @"GTRouterParameterCompletion";
-NSString *const GTRouterParameterUserInfo = @"GTRouterParameterUserInfo";
-
 @interface GTBaseRule()
 
 @property (nonatomic) NSMutableDictionary *routes;

@@ -76,5 +76,10 @@
         return 0;
     }
 }
+- (void)setObject:(id)anObject forKeyIfNotNil:(id)aKey {
+    if (aKey && anObject) {
+        [self setValue:anObject forKey:aKey];
+    }
+}
 
 @end

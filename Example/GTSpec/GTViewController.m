@@ -7,7 +7,7 @@
 //
 
 #import "GTViewController.h"
-#import <KLSwitch/KLSwitch.h>
+#import "GTURLHelper.h"
 @interface GTViewController ()
 
 @end
@@ -23,6 +23,8 @@
     
 //    KLSwitch *sw = [[KLSwitch alloc] init];
 //    [self.view addSubview:sw];
+    NSString *url = @"dm://tokenInValid?uid=1111&shop=2222";
+    GTURLHelper *helper = [GTURLHelper URLWithString:url];
 }
 
 - (void)didReceiveMemoryWarning

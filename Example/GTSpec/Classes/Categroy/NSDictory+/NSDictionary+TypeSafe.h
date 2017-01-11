@@ -22,4 +22,5 @@
 - (CGFloat)floatForKey:(id)aKey; // 值为数字、字符串都可以
 - (BOOL)boolForKey:(id)aKey; // 值为布尔、数字、字符串都可以
 
+- (void)setObject:(id)anObject forKeyIfNotNil:(id)aKey;
 @end

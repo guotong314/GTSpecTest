@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+NSString *const GTRouterParameterURL = @"GTRouterParameterURL";
+NSString *const GTRouterParameterCompletion = @"GTRouterParameterCompletion";
+NSString *const GTRouterParameterUserInfo = @"GTRouterParameterUserInfo";
+
 typedef void (^GTRouterHandler)(NSDictionary *routerParameters);
 
 @interface GTBaseRule : NSObject

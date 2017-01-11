@@ -26,6 +26,7 @@
 		4E4704DA1E1F8A2E0000FF42 /* GTBaseRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4704D41E1F8A2E0000FF42 /* GTBaseRule.m */; };
 		4E4704DB1E1F8A2E0000FF42 /* GTBaseComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4704D71E1F8A2E0000FF42 /* GTBaseComponent.m */; };
 		4E4704DC1E1F8A2E0000FF42 /* GTComponentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4704D91E1F8A2E0000FF42 /* GTComponentManager.m */; };
+		4E6CCAAF1E25F4F3003AB4A3 /* GTURLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6CCAAE1E25F4F3003AB4A3 /* GTURLHelper.m */; };
 		4E92827A1E121C2B00C64A85 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4E9282751E121C2B00C64A85 /* .gitkeep */; };
 		4EC1DCCD1E2379020056D16C /* PersistenceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1DCCC1E2379020056D16C /* PersistenceHelper.m */; };
 		4EC1DCD01E237FC20056D16C /* ValueForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1DCCF1E237FC20056D16C /* ValueForKey.m */; };
@@ -99,6 +100,8 @@
 		4E4704D71E1F8A2E0000FF42 /* GTBaseComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTBaseComponent.m; sourceTree = "<group>"; };
 		4E4704D81E1F8A2E0000FF42 /* GTComponentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTComponentManager.h; sourceTree = "<group>"; };
 		4E4704D91E1F8A2E0000FF42 /* GTComponentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTComponentManager.m; sourceTree = "<group>"; };
+		4E6CCAAD1E25F4F3003AB4A3 /* GTURLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTURLHelper.h; sourceTree = "<group>"; };
+		4E6CCAAE1E25F4F3003AB4A3 /* GTURLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTURLHelper.m; sourceTree = "<group>"; };
 		4E9282751E121C2B00C64A85 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		4EC1DCCB1E2379020056D16C /* PersistenceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistenceHelper.h; sourceTree = "<group>"; };
 		4EC1DCCC1E2379020056D16C /* PersistenceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistenceHelper.m; sourceTree = "<group>"; };
@@ -288,6 +291,8 @@
 				4E4704D71E1F8A2E0000FF42 /* GTBaseComponent.m */,
 				4E4704D81E1F8A2E0000FF42 /* GTComponentManager.h */,
 				4E4704D91E1F8A2E0000FF42 /* GTComponentManager.m */,
+				4E6CCAAD1E25F4F3003AB4A3 /* GTURLHelper.h */,
+				4E6CCAAE1E25F4F3003AB4A3 /* GTURLHelper.m */,
 			);
 			path = Rule;
 			sourceTree = "<group>";
@@ -622,6 +627,7 @@
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				4E4704A71E1CA0290000FF42 /* NSArray+Safe.m in Sources */,
 				4E4704B51E1CE1670000FF42 /* GTRemindView.m in Sources */,
+				4E6CCAAF1E25F4F3003AB4A3 /* GTURLHelper.m in Sources */,
 				4E4704AE1E1CA0290000FF42 /* UIView+Sizes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -80,11 +80,11 @@ NSString *const MGJComponentDefaultPlistName = @"components";
                     [GTBaseRule registerURLPattern:url toHandler:^(NSDictionary *routerParameters) {
                         if ([obj respondsToSelector:@selector(handleURL:withUserInfo:completion:)]) {
                             //将 routerParameters 中的 completion、UserInfo 剥离，方便使用
-//                            id completionBlock = routerParameters[MGJRouterParameterCompletion];
-//                            NSDictionary *userInfo = routerParameters[MGJRouterParameterUserInfo];
-//                            NSString *fullURL = routerParameters[MGJRouterParameterURL];
+                            id completionBlock = routerParameters[GTRouterParameterCompletion];
+                            NSDictionary *userInfo = routerParameters[GTRouterParameterUserInfo];
+                            NSString *fullURL = routerParameters[GTRouterParameterURL];
                             
-                            [obj handleURL:nil withUserInfo:nil completion:nil];
+                            [obj handleURL:fullURL withUserInfo:userInfol completion:completionBlock];
                         }
                     }];
                 }];
