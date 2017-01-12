@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GTSpec'
-  s.version          = '0.7.5'
+  s.version          = '0.7.6'
   s.summary          = 'A short description of GTSpec.'
 
 # This description is used to generate tags and improve search results.
@@ -46,5 +46,13 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   #s.dependency 'KLSwitch', '~> 1.5'
+
+  s.dependency 'KVOController'
+  s.dependency 'BlocksKit'
+  s.dependency 'Masonry'
+  s.dependency 'AFNetworking',      '~> 2.0'
+  s.dependency 'SDWebImage',        '~> 3.7.3'
+  s.dependency 'Objective-LevelDB'
+  s.dependency 'AutoCoding'
 
 end
