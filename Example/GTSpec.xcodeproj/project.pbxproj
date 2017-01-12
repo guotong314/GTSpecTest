@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0B2B3BDB2D26C6CDCF4BB5F4 /* libPods-GTSpec_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8633E4775586D866B6AD72 /* libPods-GTSpec_Tests.a */; };
+		4E036F981E27422C004E8D82 /* GTPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E036F931E27422C004E8D82 /* GTPath.m */; };
+		4E036F991E27422C004E8D82 /* GTPhotoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E036F951E27422C004E8D82 /* GTPhotoCache.m */; };
+		4E036F9A1E27422C004E8D82 /* GTImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E036F971E27422C004E8D82 /* GTImageManager.m */; };
+		4E036F9E1E274316004E8D82 /* UIImage+scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E036F9D1E274316004E8D82 /* UIImage+scale.m */; };
+		4E036FAE1E274796004E8D82 /* GTLevelDBCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E036FAB1E274796004E8D82 /* GTLevelDBCenter.m */; };
+		4E036FB01E274BA3004E8D82 /* GTSpec.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4E036FAF1E274BA3004E8D82 /* GTSpec.podspec */; };
 		4E4704501E1B67C40000FF42 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E47044F1E1B67C40000FF42 /* MessageUI.framework */; };
 		4E4704541E1C98610000FF42 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4704531E1C98610000FF42 /* Launch Screen.storyboard */; };
 		4E4704A41E1CA0290000FF42 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4E47047F1E1CA0290000FF42 /* .gitkeep */; };
@@ -27,6 +33,8 @@
 		4E4704DB1E1F8A2E0000FF42 /* GTBaseComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4704D71E1F8A2E0000FF42 /* GTBaseComponent.m */; };
 		4E4704DC1E1F8A2E0000FF42 /* GTComponentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4704D91E1F8A2E0000FF42 /* GTComponentManager.m */; };
 		4E6CCAAF1E25F4F3003AB4A3 /* GTURLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6CCAAE1E25F4F3003AB4A3 /* GTURLHelper.m */; };
+		4E6CCAE31E27171E003AB4A3 /* NSObject+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6CCAE21E27171E003AB4A3 /* NSObject+GTKit.m */; };
+		4E6CCAE71E2718E3003AB4A3 /* GTEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6CCAE61E2718E3003AB4A3 /* GTEmptyView.m */; };
 		4E92827A1E121C2B00C64A85 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4E9282751E121C2B00C64A85 /* .gitkeep */; };
 		4EC1DCCD1E2379020056D16C /* PersistenceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1DCCC1E2379020056D16C /* PersistenceHelper.m */; };
 		4EC1DCD01E237FC20056D16C /* ValueForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1DCCF1E237FC20056D16C /* ValueForKey.m */; };
@@ -58,6 +66,19 @@
 
 /* Begin PBXFileReference section */
 		35B8BAFAFE41979E910C0F91 /* Pods-GTSpec_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTSpec_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTSpec_Example/Pods-GTSpec_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4E036F921E27422C004E8D82 /* GTPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTPath.h; sourceTree = "<group>"; };
+		4E036F931E27422C004E8D82 /* GTPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTPath.m; sourceTree = "<group>"; };
+		4E036F941E27422C004E8D82 /* GTPhotoCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTPhotoCache.h; sourceTree = "<group>"; };
+		4E036F951E27422C004E8D82 /* GTPhotoCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTPhotoCache.m; sourceTree = "<group>"; };
+		4E036F961E27422C004E8D82 /* GTImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTImageManager.h; sourceTree = "<group>"; };
+		4E036F971E27422C004E8D82 /* GTImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTImageManager.m; sourceTree = "<group>"; };
+		4E036F9C1E274316004E8D82 /* UIImage+scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+scale.h"; sourceTree = "<group>"; };
+		4E036F9D1E274316004E8D82 /* UIImage+scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+scale.m"; sourceTree = "<group>"; };
+		4E036FAA1E274796004E8D82 /* GTLevelDBCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLevelDBCenter.h; sourceTree = "<group>"; };
+		4E036FAB1E274796004E8D82 /* GTLevelDBCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLevelDBCenter.m; sourceTree = "<group>"; };
+		4E036FAC1E274796004E8D82 /* GTLevelDBDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLevelDBDataType.h; sourceTree = "<group>"; };
+		4E036FAD1E274796004E8D82 /* GTLevelDBProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLevelDBProtocol.h; sourceTree = "<group>"; };
+		4E036FAF1E274BA3004E8D82 /* GTSpec.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GTSpec.podspec; sourceTree = "<group>"; };
 		4E26A3B21E248C4300627BAF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		4E26A3B41E248C5C00627BAF /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		4E26A3B61E248CD000627BAF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -102,6 +123,10 @@
 		4E4704D91E1F8A2E0000FF42 /* GTComponentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTComponentManager.m; sourceTree = "<group>"; };
 		4E6CCAAD1E25F4F3003AB4A3 /* GTURLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTURLHelper.h; sourceTree = "<group>"; };
 		4E6CCAAE1E25F4F3003AB4A3 /* GTURLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTURLHelper.m; sourceTree = "<group>"; };
+		4E6CCAE11E27171E003AB4A3 /* NSObject+GTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GTKit.h"; sourceTree = "<group>"; };
+		4E6CCAE21E27171E003AB4A3 /* NSObject+GTKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GTKit.m"; sourceTree = "<group>"; };
+		4E6CCAE51E2718E3003AB4A3 /* GTEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTEmptyView.h; sourceTree = "<group>"; };
+		4E6CCAE61E2718E3003AB4A3 /* GTEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTEmptyView.m; sourceTree = "<group>"; };
 		4E9282751E121C2B00C64A85 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		4EC1DCCB1E2379020056D16C /* PersistenceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistenceHelper.h; sourceTree = "<group>"; };
 		4EC1DCCC1E2379020056D16C /* PersistenceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistenceHelper.m; sourceTree = "<group>"; };
@@ -160,6 +185,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E036F911E274227004E8D82 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				4E036F921E27422C004E8D82 /* GTPath.h */,
+				4E036F931E27422C004E8D82 /* GTPath.m */,
+				4E036F941E27422C004E8D82 /* GTPhotoCache.h */,
+				4E036F951E27422C004E8D82 /* GTPhotoCache.m */,
+				4E036F961E27422C004E8D82 /* GTImageManager.h */,
+				4E036F971E27422C004E8D82 /* GTImageManager.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		4E036F9B1E2742BD004E8D82 /* UIImage+ */ = {
+			isa = PBXGroup;
+			children = (
+				4E036F9C1E274316004E8D82 /* UIImage+scale.h */,
+				4E036F9D1E274316004E8D82 /* UIImage+scale.m */,
+			);
+			path = "UIImage+";
+			sourceTree = "<group>";
+		};
+		4E036FA91E274796004E8D82 /* LevelDB */ = {
+			isa = PBXGroup;
+			children = (
+				4E036FAA1E274796004E8D82 /* GTLevelDBCenter.h */,
+				4E036FAB1E274796004E8D82 /* GTLevelDBCenter.m */,
+				4E036FAC1E274796004E8D82 /* GTLevelDBDataType.h */,
+				4E036FAD1E274796004E8D82 /* GTLevelDBProtocol.h */,
+			);
+			path = LevelDB;
+			sourceTree = "<group>";
+		};
 		4E47047E1E1CA0290000FF42 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +245,8 @@
 		4E4704831E1CA0290000FF42 /* Categroy */ = {
 			isa = PBXGroup;
 			children = (
+				4E036F9B1E2742BD004E8D82 /* UIImage+ */,
+				4E6CCAE01E2716F6003AB4A3 /* Object+ */,
 				4E4704841E1CA0290000FF42 /* NSArray+ */,
 				4E4704891E1CA0290000FF42 /* NSDictory+ */,
 				4E47048E1E1CA0290000FF42 /* NSString+ */,
@@ -259,6 +319,9 @@
 		4E4704A01E1CA0290000FF42 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				4E036FA91E274796004E8D82 /* LevelDB */,
+				4E036F911E274227004E8D82 /* Cache */,
+				4E6CCAE41E2718CC003AB4A3 /* EmptyVIew */,
 				4E4704B21E1CE1670000FF42 /* TipView */,
 			);
 			path = Tools;
@@ -295,6 +358,24 @@
 				4E6CCAAE1E25F4F3003AB4A3 /* GTURLHelper.m */,
 			);
 			path = Rule;
+			sourceTree = "<group>";
+		};
+		4E6CCAE01E2716F6003AB4A3 /* Object+ */ = {
+			isa = PBXGroup;
+			children = (
+				4E6CCAE11E27171E003AB4A3 /* NSObject+GTKit.h */,
+				4E6CCAE21E27171E003AB4A3 /* NSObject+GTKit.m */,
+			);
+			path = "Object+";
+			sourceTree = "<group>";
+		};
+		4E6CCAE41E2718CC003AB4A3 /* EmptyVIew */ = {
+			isa = PBXGroup;
+			children = (
+				4E6CCAE51E2718E3003AB4A3 /* GTEmptyView.h */,
+				4E6CCAE61E2718E3003AB4A3 /* GTEmptyView.m */,
+			);
+			path = EmptyVIew;
 			sourceTree = "<group>";
 		};
 		4E9282741E121C2B00C64A85 /* Assets */ = {
@@ -394,6 +475,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				4E036FAF1E274BA3004E8D82 /* GTSpec.podspec */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -493,6 +575,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E4704541E1C98610000FF42 /* Launch Screen.storyboard in Resources */,
+				4E036FB01E274BA3004E8D82 /* GTSpec.podspec in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				4E4704A41E1CA0290000FF42 /* .gitkeep in Resources */,
 				4E4704B81E1DEBA50000FF42 /* Images.xcassets in Resources */,
@@ -610,12 +693,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E4704A61E1CA0290000FF42 /* NSArray+JSONString.m in Sources */,
+				4E036F981E27422C004E8D82 /* GTPath.m in Sources */,
 				4E4704A81E1CA0290000FF42 /* NSDictionary+JSONString.m in Sources */,
+				4E036F9A1E27422C004E8D82 /* GTImageManager.m in Sources */,
 				6003F59E195388D20070C39A /* GTAppDelegate.m in Sources */,
 				4E4704AC1E1CA0290000FF42 /* NSString+Time.m in Sources */,
 				6003F5A7195388D20070C39A /* GTViewController.m in Sources */,
 				4E4704DB1E1F8A2E0000FF42 /* GTBaseComponent.m in Sources */,
+				4E036F9E1E274316004E8D82 /* UIImage+scale.m in Sources */,
 				4E4704AB1E1CA0290000FF42 /* NSString+Size.m in Sources */,
+				4E036F991E27422C004E8D82 /* GTPhotoCache.m in Sources */,
 				4EC1DCCD1E2379020056D16C /* PersistenceHelper.m in Sources */,
 				4E4704AA1E1CA0290000FF42 /* NSString+Json.m in Sources */,
 				4E4704DC1E1F8A2E0000FF42 /* GTComponentManager.m in Sources */,
@@ -623,11 +710,14 @@
 				4E4704A51E1CA0290000FF42 /* DMPhoneBase.m in Sources */,
 				4E4704A91E1CA0290000FF42 /* NSDictionary+TypeSafe.m in Sources */,
 				4EC1DCD01E237FC20056D16C /* ValueForKey.m in Sources */,
+				4E6CCAE31E27171E003AB4A3 /* NSObject+GTKit.m in Sources */,
 				4E4704DA1E1F8A2E0000FF42 /* GTBaseRule.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				4E6CCAE71E2718E3003AB4A3 /* GTEmptyView.m in Sources */,
 				4E4704A71E1CA0290000FF42 /* NSArray+Safe.m in Sources */,
 				4E4704B51E1CE1670000FF42 /* GTRemindView.m in Sources */,
 				4E6CCAAF1E25F4F3003AB4A3 /* GTURLHelper.m in Sources */,
+				4E036FAE1E274796004E8D82 /* GTLevelDBCenter.m in Sources */,
 				4E4704AE1E1CA0290000FF42 /* UIView+Sizes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,3 +1,69 @@
-PODFILE CHECKSUM: 06c9325eac6523c2a98bd66940615357b04694fa
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AutoCoding (2.2.2)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - KVOController (1.2.0)
+  - leveldb-library (1.18.2)
+  - Masonry (1.0.2)
+  - Objective-LevelDB (2.1.5):
+    - leveldb-library (~> 1.18.2)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - AutoCoding
+  - BlocksKit
+  - KVOController
+  - Masonry
+  - Objective-LevelDB
+  - SDWebImage (~> 3.7.3)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AutoCoding: 56fa46dbfa89d44189a26ce64e6a470ed8ff4661
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  leveldb-library: ef0453697c0fda3a9e550e5650e52976e6724548
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  Objective-LevelDB: fa075efd9d0be645aee51847cc3ee70cdadb80ce
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+
+PODFILE CHECKSUM: 7339b91494d081cf541c4d554e818a47266b0a99
 
 COCOAPODS: 1.1.1
