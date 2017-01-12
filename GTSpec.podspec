@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GTSpec'
-  s.version          = '0.7.6'
+  s.version          = '0.7.7'
   s.summary          = 'A short description of GTSpec.'
 
 # This description is used to generate tags and improve search results.
