@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>IQKeyboardManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>KVOController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,12 +52,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0659B71386995AC7EE2A305F0A360EB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0AC55E754182E1FCF070AC7F74379523</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>226B070D2CB0E2D885C32EDCA75A0357</key>
+		<key>657359AC5E71A8E8ED86D0CC9675852B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,12 +82,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AFAFB55453D161D2BB5CFB30C68A54D5</key>
+		<key>A1DDD103D1A194770594A82EE5AF34C8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D343BDF03B1E1B6E0364F52820D0F88E</key>
+		<key>AFAFB55453D161D2BB5CFB30C68A54D5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

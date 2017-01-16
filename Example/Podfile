@@ -9,6 +9,8 @@ pod 'Masonry'
 pod 'AFNetworking',      '~> 2.0'
 pod 'SDWebImage',        '~> 3.7.3'
 pod 'AutoCoding'
+pod 'IQKeyboardManager'
+
   target 'GTSpec_Tests' do
     inherit! :search_paths
     
