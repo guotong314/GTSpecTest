@@ -30,5 +30,25 @@
     }
 }
 
++ (void)downImage:(NSString *)aUrl withCallBack:(callBack)callBack
+{
+    NSString *urlString = aUrl;
+    NSURL *url = [NSURL URLWithString:urlString];
+    
+    //    if ([[BCPhotoCache sharedPhotoCache] imageForKey:urlString]) {
+    //        callBack(nil);
+    //    } else {
+    SDWebImageManager *manager = [SDWebImageManager sharedManager];
+    // 没缓存图片,下载
+    __block BOOL isDownloadCompleted = NO;
+    [manager downloadImageWithURL:url options:SDWebImageRefreshCached progress:nil completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
+        if (!error) {
+            isDownloadCompleted = YES;
+            [[GTPhotoCache sharedPhotoCache] storeImage:image forKey:urlString];
+        }
+        callBack(error);
+    }];
+    //    }
+}
 
 @end

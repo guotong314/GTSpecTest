@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void (^callBack) (NSError *error);
 @interface GTImageManager : NSObject
 
 + (void)downImage:(NSString *)aUrl;
-
++ (void)downImage:(NSString *)aUrl withCallBack:(callBack)callBack;
 @end
